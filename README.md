@@ -12,8 +12,8 @@ for num in Iterable(5):
     
    ----------------------------
    
-   def calculate(func):
-    def  eval(expression):
+def calculate(func):
+ def  eval(expression):
         try:
             result = eval(expression)
         except (SyntaxError, NameError, ZeroDivisionError):
